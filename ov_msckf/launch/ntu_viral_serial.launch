@@ -16,10 +16,10 @@
     <!-- <arg name="bag"         default="/datasets/$(arg config)/$(arg dataset).bag" /> -->
 
     <!-- saving trajectory path and timing information -->
-    <arg name="dosave"      default="false" />
-    <arg name="dotime"      default="false" />
-    <arg name="path_est"    default="/tmp/traj_estimate.txt" />
-    <arg name="path_time"   default="/tmp/traj_timing.txt" />
+    <arg name="dosave"      default="true" />
+    <arg name="dotime"      default="true" />
+    <arg name="path_est"    default="/workspace/result/$(arg config)_path_est.txt" />
+    <arg name="path_time"   default="/workspace/result/$(arg config)_patu_time.txt" />
 
     <!-- if we should viz the groundtruth -->
     <arg name="dolivetraj"  default="false" />
